@@ -1,0 +1,57 @@
+body {
+    font-family: Verdana, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #FF6F61;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 1em;
+    text-decoration: none;
+}
+
+.hero {
+    background-color: #FFD700;
+    padding: 2em;
+    text-align: center;
+}
+
+.carousel-item {
+    background-color: #FFB3BA;
+    padding: 2em;
+    margin: 1em 0;
+}
+
+.recipe-of-the-day, .popular-recipes {
+    padding: 2em;
+}
+
+.recipe-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1em;
+}
+
+.recipe-grid div {
+    background-color: #FFB3BA;
+    padding: 1em;
+    text-align: center;
+}
+
+footer {
+    background-color: #FF6F61;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
